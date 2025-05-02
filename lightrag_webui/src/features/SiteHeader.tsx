@@ -49,6 +49,9 @@ function TabsNavigation() {
         <NavigationTab value="api" currentTab={currentTab}>
           {t('header.api')}
         </NavigationTab>
+        <NavigationTab value="chat" currentTab={currentTab}>
+          {t('header.chat')}
+        </NavigationTab>
       </TabsList>
     </div>
   )
